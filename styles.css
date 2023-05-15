@@ -1,0 +1,98 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #3b3d4d;
+  color: #faf8f8;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#chat-box {
+  background-color: #f5f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+}
+
+#chat-log {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#chat-log li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question {
+  background-color: #bdd1f3;
+  color: #151414;
+}
+
+.answer {
+  background-color: #f3f8f3;
+}
+.answer p:first-child {
+  margin-top: 0;
+}
+
+.line {
+  border-left: 2px solid #ccc;
+  height: 100px;
+  margin: 20px 0; /* 상하 간격을 20px로 설정 */
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#chat-input {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#send-button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+}
